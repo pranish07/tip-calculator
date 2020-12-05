@@ -1,0 +1,75 @@
+body{
+    background: rgb(91, 185, 2);
+    font-family: sans-serif;
+}
+#container{
+    height: 500px;
+    width: 300px;
+    margin : 100px auto;
+    box-shadow: 0 0 3px 5px;
+    background: white;
+    color: black;
+    border-radius : 20px;
+
+}
+h1{
+    color: rgb(224, 56, 56);
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(219, 240, 38);
+    border-radius : 20px;
+    font-size: 30px;
+    font-weight: 20px;
+    
+}
+p {
+    padding-left: 20px;
+  }
+
+  form input[type="number"] {
+    width : 90px;
+  }
+  input {
+    padding-left: 20px;
+  }
+  #billamt{
+      font-size: 14px;
+      width:90px;
+      padding: 5px 5px 8px 8px;
+
+  }
+form select{
+    font-size: 18px;
+    width:300px;
+    padding: 5px 5px 8px 8px;
+
+}
+#peopleamt{
+    font-size: 14px;
+    width:150px;
+    padding: 10px 5px 8px 8px;
+}
+
+
+  button {
+        text-transform: uppercase;
+        font-weight: bold;
+        display: block;
+        margin: 30px auto;
+        background: #AD133A;
+        border-radius: 5px;
+        width: 200px;
+        height: 50px;
+        font-size: 17px;
+        color: white;
+      }
+      
+      button:hover {
+        background: #4c2827;
+        border-bottom-color: #111;
+      }
+      #totalTip {
+        font-size: 30px;
+        margin-top: 5px;
+        text-align: center;
+      }
